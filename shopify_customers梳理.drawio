@@ -1,0 +1,187 @@
+<mxfile host="Electron" modified="2024-06-13T07:15:20.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="gOMQ_i3KbXwiZvFCuFeB" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="1n__sG-lZIyPBrob01RF">
+    <mxGraphModel dx="2060" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-1" target="VbJ_4d63BnBE6HaV6rYs-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-78" value="遍历state为enabled的customer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-4" vertex="1" connectable="0">
+          <mxGeometry x="0.2417" y="2" relative="1" as="geometry">
+            <mxPoint x="78" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-1" value="shopify&amp;nbsp;customers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-3" target="VbJ_4d63BnBE6HaV6rYs-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="400" />
+              <mxPoint x="640" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-18" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-16" vertex="1" connectable="0">
+          <mxGeometry x="0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-3" target="VbJ_4d63BnBE6HaV6rYs-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="400" />
+              <mxPoint x="1240" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-114" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.2519" y="2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-3" value="customer中是否存在identifier" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-7" target="VbJ_4d63BnBE6HaV6rYs-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="560" />
+              <mxPoint x="440" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-24" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-20" vertex="1" connectable="0">
+          <mxGeometry x="0.125" y="4" relative="1" as="geometry">
+            <mxPoint x="10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-7" target="VbJ_4d63BnBE6HaV6rYs-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="560" />
+              <mxPoint x="840" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-25" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-23" vertex="1" connectable="0">
+          <mxGeometry x="0.15" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-7" value="identifier是否存在对应官网id" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-14" target="VbJ_4d63BnBE6HaV6rYs-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-99" value="一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.2444" y="-3" relative="1" as="geometry">
+            <mxPoint x="-12" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-14" target="VbJ_4d63BnBE6HaV6rYs-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-100" value="不一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-37" vertex="1" connectable="0">
+          <mxGeometry x="0.2889" y="1" relative="1" as="geometry">
+            <mxPoint x="-36" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-14" value="邮箱是否一致" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-22" target="VbJ_4d63BnBE6HaV6rYs-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="720" />
+              <mxPoint x="740" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-101" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.1778" relative="1" as="geometry">
+            <mxPoint x="50" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-22" target="VbJ_4d63BnBE6HaV6rYs-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-102" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-98" vertex="1" connectable="0">
+          <mxGeometry x="0.1333" y="-3" relative="1" as="geometry">
+            <mxPoint x="-12" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-22" value="邮箱是否存在于官网中" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-26" target="VbJ_4d63BnBE6HaV6rYs-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-26" value="删除customer的identifier" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-28" value="更新customer的identifier为对应官网id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-34" value="数据没问题" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-35" value="？？？在其中一端更新了邮箱？？？" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-83" target="VbJ_4d63BnBE6HaV6rYs-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="720" />
+              <mxPoint x="1140" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-110" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-108" vertex="1" connectable="0">
+          <mxGeometry x="0.1778" relative="1" as="geometry">
+            <mxPoint x="50" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-83" target="VbJ_4d63BnBE6HaV6rYs-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="720" />
+              <mxPoint x="1340" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-111" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VbJ_4d63BnBE6HaV6rYs-109" vertex="1" connectable="0">
+          <mxGeometry x="0.2444" relative="1" as="geometry">
+            <mxPoint x="-50" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-83" value="邮箱是否存在于官网中" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-106" target="VbJ_4d63BnBE6HaV6rYs-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-106" value="待该邮箱官网注册时" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-107" value="更新customer的identifier为对应官网id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VbJ_4d63BnBE6HaV6rYs-112" target="VbJ_4d63BnBE6HaV6rYs-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-112" value="待该邮箱官网注册时" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-115" value="更新customer的identifier为对应官网id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VbJ_4d63BnBE6HaV6rYs-117" value="更新customer的identifier为对应官网id" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
